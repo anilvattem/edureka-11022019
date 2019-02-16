@@ -1,6 +1,5 @@
 package Day4;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -10,7 +9,7 @@ public class workingWithChrome {
 	
 	public void invokeBrowser() {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anil\\eclipse-workspace\\libs\\chromedriver_2.46\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anil.DESKTOP-NS9DBE9\\eclipse-workspace\\libs\\chromedriver-2.46\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		

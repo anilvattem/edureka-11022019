@@ -10,6 +10,11 @@ public class DemoGuru99Project {
 		
 		guru.login("mngr179054", "esYnAqu");
 		
+		guru.addCustomer();
+		
+		String custID = guru.getCustID();
+		
+		guru.addAccount(custID);
 
 	}
 

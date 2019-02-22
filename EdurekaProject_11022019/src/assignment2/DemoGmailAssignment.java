@@ -10,7 +10,7 @@ public class DemoGmailAssignment {
 		
 		login.gmailLoginID("anil.vattem@gmail.com");
 		
-		login.gmailPwd("");
+		login.gmailPwd("anilgoogle");
 		
 		login.composeMail("anil.vattem@gmail.com", "Test subject", "Test content");
 

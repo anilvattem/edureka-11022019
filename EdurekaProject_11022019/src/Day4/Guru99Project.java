@@ -72,6 +72,8 @@ public class Guru99Project {
 		
 		String custID = driver.findElement(By.xpath("//table[@id='customer']/tbody/tr[4]/td[2]")).getText();
 		
+		/*String custID = driver.findElement(By.xpath("//table[@id='customer']//td[text()='Customer ID']//following-sibling::td)).getText();*/
+		
 		return custID;
 	}
 	

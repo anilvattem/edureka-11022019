@@ -14,7 +14,7 @@ public class DemoGuru99Project {
 		
 		String custID = guru.getCustID();
 		
-		guru.addAccount(custID);
+		guru.addAccount(custID, "Savings");
 
 	}
 

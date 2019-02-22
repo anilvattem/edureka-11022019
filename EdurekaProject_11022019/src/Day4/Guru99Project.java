@@ -75,7 +75,7 @@ public class Guru99Project {
 		return custID;
 	}
 	
-	public void addAccount(String custID) {
+	public void addAccount(String custID, String actType ) {
 		
 		driver.findElement(By.linkText("New Account")).click();
 		
@@ -85,7 +85,7 @@ public class Guru99Project {
 		
 		Select selAccount = new Select(dropdown);
 		
-		selAccount.selectByVisibleText("Current");
+		selAccount.selectByVisibleText(actType);
 		
 		System.out.println(selAccount.isMultiple());
 		

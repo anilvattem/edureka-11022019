@@ -1,4 +1,4 @@
-package GitTest;
+package gittest;
 
 public class demoGit {
 
